@@ -1,0 +1,109 @@
+*{
+    margin :0%;
+    padding: 0%;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background-color: #eeee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeee;
+    padding: 17px;
+    box-shadow: 0px 2px 2px 2px gray;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 44px;
+}
+
+ul{
+    margin-right: 45;
+    margin-top: 7px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+ul li a{
+    margin-inline: 22px;
+    font-size: 20px;
+}
+
+ul li i{
+    font-size: 22px;
+}
+ul li #home{
+
+    color: rgb(23, 234, 234);
+}
+
+ul li a:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+.main .maintext{
+    margin-top: 144px;
+    
+}
+
+.maintext h1{
+    font-size: 94px;
+    
+}
+
+.maintext .top{
+    color: aqua;
+}
+
+.maintext button{
+    width: 145px;
+    height: 40px;
+    background-color: rgb(8, 161, 161);
+    border: none;
+    font-size: 22px;
+    color: white;
+    margin-top: 24px;
+}
+.maintext button:hover{
+    border : 2px solid rgb(0, 10, 10);
+    background-color: transparent;
+    color: rgb(10, 149, 149);
+}
+.maintext p{
+   margin-top: 12px; 
+}
+
+.trend .head{
+    text-align: center;
+    padding: 33px;
+    margin-top: 32px;
+}
+.head span{
+    color: rgb(9, 146, 146);
+}
+
+.card{
+    display:flex;
+    justify-content: center;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 11px;
+}
+.crd img{
+    width: 55%;
+}
